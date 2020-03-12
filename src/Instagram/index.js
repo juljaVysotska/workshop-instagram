@@ -1,7 +1,13 @@
 import React from 'react';
+import './styles/init.css';
+
+// Components
+import { Header } from './components/Header';
 
 export const Instagram = () => {
     return (
-        <h1>Hello from Instagram</h1>
+        <>
+            <Header />
+        </>
     )
 };
