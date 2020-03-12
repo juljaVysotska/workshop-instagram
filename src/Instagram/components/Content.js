@@ -9,6 +9,21 @@ export const Content = () => {
                     className='avatar'
                     src = { avatar }
                 />
+                <div className='main'>
+                    <span className='nickname'>nasa</span>
+                    <div className='stats'>
+                        <div>
+                            <span>2.616</span>&nbsp;posts
+                        </div>
+                        <div>
+                            <span>46.6</span>&nbsp;folowers
+                        </div>
+                        <div>
+                            <span>91</span>&nbsp;folowing
+                        </div>
+                    </div>   
+                    <span className='name'>NASA</span>
+                </div>
             </div>
         </section>
     )
